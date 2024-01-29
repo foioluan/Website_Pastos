@@ -1,0 +1,241 @@
+.mainBackground {
+  background-color: #fffafa;
+  width: auto;
+}
+
+.logoImage {
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  width: 200px;
+  height: 50px;
+}
+
+.Principal {
+   display: grid;
+   grid-template-areas:
+     "header header"
+     "nav content"
+     "footer footer";
+   grid-template-columns: auto 1fr;
+   grid-template-rows: auto 1fr auto;
+   height: 100vh;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ .App-header {
+   grid-area: header;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 1rem;
+   border-bottom: 3px solid rgb(68, 228, 121);
+ }
+ 
+ nav ul {
+   display: flex;
+   justify-content: space-around;
+   list-style: none;
+   padding: 0;
+ }
+ 
+ nav ul li {
+   padding: 0.5rem;
+   cursor: pointer;
+   margin-right: 10px;
+   margin-left: 10px;
+ }
+ 
+ nav ul li:hover {
+   background-color: rgb(160, 255, 192);
+ }
+ 
+ .main {
+   grid-area: content;
+   overflow: auto;
+   padding: 1rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin: auto;
+   font-size: 14px;
+ }
+ 
+ .cards-container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 50px;
+   justify-content: space-around;
+ }
+ 
+ .card-content {
+   padding: 10px;
+   margin-top: 10px;
+   height: 300px;
+   width: 300px;
+ }
+ 
+ .animalCard {
+   display: inline;
+    font-size: 20px;
+    width: 200px;
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgb(100, 100, 100);
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: #88D05B;
+ }
+ 
+ .animalCard .card-content {
+   padding: 10px;
+   text-align: left;
+ }
+ 
+ .animalCard i.fa.fa-cog {
+   color: rgb(65, 226, 178);
+   float: right;
+   font-size: 24px;
+ }
+
+ .animalCard p{
+   text-align: right;
+   margin-right: 10px;
+   color: white;
+ }
+ 
+ .animalCard:hover {
+   box-shadow: 0 8px 16px 0 rgb(100, 100, 100);
+ }
+ 
+ .ovelha-card img {
+   width: 100%;
+   height: auto;
+   display: flex;
+ }
+ 
+ .animalCard h2 {
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra suave */
+   margin: 10px 0;
+   font-size: 24px;
+   color: white;
+   }
+ 
+ 
+ .ovelha-card p {
+   color: black;
+   margin: 10px 0;
+   text-align: left;
+ }
+ 
+ 
+ .taskCardPrincipal {
+  display: inline-block;
+  font-size: 20px;
+  width: 250px;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgb(100, 100, 100);
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: #e3cc39;
+
+}
+
+ .taskCard:hover {
+   box-shadow: 0 8px 16px 0 rgb(100, 100, 100);
+ }
+ 
+ h2 {
+   font-size: 24px;
+ }
+ 
+ h3 {
+   font-size: 20px;
+   margin-left: 15px;
+ }
+ 
+ .taskCardPrincipal h2 {
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra suave */
+   margin-top:20px;
+   margin-left: 5px;
+   font-size: 24px;
+   color: white;
+ }
+ 
+ .taskCardPrincipal p {
+   margin: 10px 0;
+   font-size: 20px;
+   color: white;
+   text-align: center;
+ }
+ 
+ .taskCard i.fa.fa-cog {
+   color: white;
+   
+ }
+ 
+ .taskCard i.fa.fa-check-circle {
+   color: rgb(76, 226, 65);
+   float: right;
+   margin-top: 150px;
+   font-size: 24px;
+ }
+ 
+ .cadastroTarefa-button {
+   display: block;
+   margin: 20px auto;
+   height: 50px;
+   padding: 10px;
+   font-size: 16px;
+   background-color: #39b01e;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ 
+ .cadastroTarefa-button:hover {
+   background-color: #88D05B;
+ }
+
+ .tasksContainer {
+   display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    margin-top: 5px;
+ }
+
+ .animalsContainer {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-content: space-around;
+   flex-direction: row;
+   align-items: center;
+ }
+ 
+ .footer {
+   grid-area: footer;
+   text-align: center;
+   padding: 1rem;
+   border-top: 3px solid rgb(68, 228, 121);
+ }
+ 

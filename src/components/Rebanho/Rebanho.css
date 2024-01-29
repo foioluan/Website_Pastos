@@ -1,0 +1,133 @@
+.Principal {
+  display: grid;
+  grid-template-areas:
+      "header header"
+      "nav content"
+      "footer footer";
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  grid-area: header;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-bottom: 3px solid rgb(68, 228, 121);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  background-color: rgb(160, 255, 192);
+}
+
+.main {
+  grid-area: content;
+  overflow: auto;
+  padding: 1rem;
+}
+
+.search-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-container input {
+  flex: 1;
+  max-width: 400px;
+  margin-top: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.search-container button {
+  display: block;
+  margin: 0 auto 0px 5px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: rgb(48, 184, 43);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: rgb(38, 144, 33);
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  display: inline-block;
+  height: 120px;
+  margin: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgb(100, 100, 100);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.rebanho-cards .card {
+  font-size: 10px;
+  width: 180px;
+  background-color: rgb(48, 184, 43);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgb(100, 100, 100);
+}
+
+.card h2 {
+  margin: 10px 0;
+  font-size: 25px;
+  color: white;
+}
+
+.card p {
+  color: white;
+  margin: 10px 0;
+  font-size: 25px;
+}
+
+.cadastroAnimal-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 16px;
+  background-color: rgb(48, 184, 43);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.cadastroAnimal-button:hover {
+  background-color: rgb(38, 144, 33);
+}
