@@ -4,13 +4,13 @@
 <p align="center">
  <a href="#about">Sobre</a> • 
  <a href="#started">Instruções</a> • 
-  <a href="#started">App Routes</a> • 
-  <a href="#colab">Colaboradores</a> •
+  <a href="#colab">Colaboradores</a> 
 </p>
 
 
 <p align="center">
-    <img src="../.github/example.png" alt="Image Example" width="400px">
+    <img src="https://github.com/im-fernanda/Website-Pastos/assets/118316479/4ff1d66f-c934-4fb6-97f2-b49ab8dd252e.png" alt="Image Example" height="450px" width="650px">
+   
 </p>
 
 <h2 id="about">📌 Sobre</h2>
@@ -19,8 +19,6 @@ Esse projeto foi desenvolvido na disciplina de Autoria Web com o objetivo de nos
 
 <h2 id="started">🚀 Intruções de uso</h2>
 Este projeto foi desenvolvido com [Create React App](https://github.com/facebook/create-react-app).
-
-## Scripts Disponíveis
 
 No diretório do projeto, você pode executar:
 
