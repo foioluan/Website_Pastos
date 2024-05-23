@@ -10,7 +10,6 @@
 
 <p align="center">
     <img src="https://github.com/im-fernanda/Website-Pastos/assets/118316479/4ff1d66f-c934-4fb6-97f2-b49ab8dd252e.png" alt="Image Example" height="450px" width="650px">
-   
 </p>
 
 <h2 id="about">📌 Sobre</h2>
