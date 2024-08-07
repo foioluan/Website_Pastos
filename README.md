@@ -1,5 +1,11 @@
+[JAVASCRIPT__BADGE]: https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript
+[REACT_BADGE]: https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black&color=61DAFB
 
-<h1 align="center" style="font-weight: bold;">Website Pastos 💻</h1>
+
+<h1 align="center" style="font-weight: bold;"> Website Pastos 💻</h1>
+
+![javascript][JAVASCRIPT__BADGE]
+![react][REACT_BADGE]
 
 <p align="center">
  <a href="#about">Sobre</a> • 
