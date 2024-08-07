@@ -14,7 +14,7 @@
 
 <h2 id="about">📌 Sobre</h2>
 
-Esse projeto foi desenvolvido na disciplina de Autoria Web com o objetivo de nos familiar com as tecnologias utilizadas para desenvolvimento de front-end.
+Esse projeto foi desenvolvido na disciplina de Autoria Web com o objetivo de demonstrar a utilização de uma das principais tecnologias utilizadas para desenvolvimento de front-end atualmente.
 
 <h2 id="started">🚀 Intruções de uso</h2>
 Este projeto foi desenvolvido com [Create React App](https://github.com/facebook/create-react-app).
