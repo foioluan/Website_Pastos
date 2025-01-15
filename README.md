@@ -7,64 +7,38 @@
 ![javascript][JAVASCRIPT__BADGE]
 ![react][REACT_BADGE]
 
-<p align="center">
+<p align="left">
  <a href="#about">Sobre</a> • 
  <a href="#started">Instruções</a> • 
-  <a href="#colab">Colaboradores</a> 
+ <a href="#colab">Colaboradores</a> 
 </p>
 
-
-<p align="center">
-    <img src="https://github.com/im-fernanda/Website-Pastos/assets/118316479/4ff1d66f-c934-4fb6-97f2-b49ab8dd252e.png" alt="Image Example" height="450px" width="650px">
-</p>
-
-<h2 id="about">📌 Sobre</h2>
-
-Esse projeto foi desenvolvido na disciplina de Autoria Web com o objetivo de demonstrar a utilização de uma das principais tecnologias utilizadas para desenvolvimento de front-end atualmente.
+Projeto desenvolvido como parte da disciplina de Autoria Web do curso de Análise e Desenvolvimento de Sistemas da UFRN. O objetivo principal é demonstrar o uso de Javascript e React para desenvolvimento do Front-End de um website. Além disso, o projeto visa ajudar a administracão de um dos setores da EAJ/UFRN.
 
 <h2 id="started">🚀 Intruções de uso</h2>
-Este projeto foi desenvolvido com [Create React App](https://github.com/facebook/create-react-app).
 
-No diretório do projeto, você pode executar:
+1. No diretório do projeto, execute:
 
 ```bash
 cd pastos
 npm start
 ```
 
-Execute o aplicativo no modo de desenvolvimento:\
-Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu navegador.
+2. Acesse localhost:3000 em seu navegador.
 
-A página será recarregada quando você fizer alterações.Você também pode ver erros de lint no console.
+3. Faça login.
 
 
 <h3>Clonando</h3>
 
 ```bash
-git clone https://github.com/im-fernanda/Website-Pastos
+git clone https://github.com/foioluan/pastos_website.git
 ```
 
 <h2 id="colab">🤝 Colaboradores</h2>
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/im-fernanda" width="103px;" alt="Fernanda Profile Picture"/><br>
-        <sub>
-          <b>Fernanda Felix</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/foioluan" width="103px;" alt="Luan Profile Picture"/><br>
-        <sub>
-          <b>Luan Veríssimo</b>
-        </sub>
-      </a>
-    </td>
-
-  </tr>
-</table>
-
+<p align="left">
+  • <a href="https://github.com/foioluan">foioluan</a>
+  </br>
+  • <a href="https://github.com/im-fernanda">im-fernanda</a>
+</p>
